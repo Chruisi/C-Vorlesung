@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmorsefunctions.a CMakeFiles/morsefunctions.dir/src/decode.c.o CMakeFiles/morsefunctions.dir/src/encode.c.o CMakeFiles/morsefunctions.dir/src/help_functions.c.o CMakeFiles/morsefunctions.dir/src/input_output.c.o CMakeFiles/morsefunctions.dir/src/morse_tables.c.o
+/usr/bin/ranlib libmorsefunctions.a

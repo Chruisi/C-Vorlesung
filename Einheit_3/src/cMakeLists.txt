@@ -1,0 +1,4 @@
+add_library(
+    strings
+    "${CMKAE_CURRENT_SOURCE_DIR}/src/whitespaces.c"
+)

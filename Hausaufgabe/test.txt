@@ -1,0 +1,1 @@
+This is a short text file created as part of a programming exercise. It contains a simple example of text content.

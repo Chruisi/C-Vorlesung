@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+enum{
+    MIDDLEOFCOMMENT = 40, //kann 39 oder 40 sein
+    ONELINELENGTH = 80,
+    FULLONELINELENGTH,
+    FIRSTSLASH = 0,
+    FIRSTSTAR,
+    NEEDEDARGUMENTS,
+    LASTSTAR = ONELINELENGTH-2,
+    ENDSLASH
+};
+
+int main(const int argc, const char **argv){
+    if(argc != NEEDEDARGUMENTS){
+        fputs("Bitte ein argument angeben: oneline \"Hallo Welt\"\n", stderr);
+        return EXIT_FAILURE;
+    }
+    char commentline[FULLONELINELENGTH];
+
+    {
+        //Vorbelegung der KommentarZeile
+        commentline[FIRSTSLASH] = '/';
+        memset(commentline+FIRSTSTAR, '*', LASTSTAR-FIRSTSTAR + 2);
+        commentline[ENDSLASH] = '/';
+        commentline[ONELINELENGTH] = '\0';
+    }
+
+    {
+        const char * const COMMENT = argv[1];
+        size_t COMMENTLENGTH = strlen(COMMENT);
+        const size_t COMMENTSTART = MIDDLEOFCOMMENT - (COMMENTLENGTH/2);
+        memcpy(commentline+COMMENTSTART, COMMENT, COMMENTLENGTH);
+    }
+
+    puts(commentline);
+
+    return EXIT_SUCCESS;
+}
