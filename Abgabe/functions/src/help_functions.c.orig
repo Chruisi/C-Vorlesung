@@ -3,11 +3,11 @@
 
 void print_programmer_info() {
     const char *json = "{\n"
-                       "  \"firstname\": \"Christian\",\n"
-                       "  \"surname\": \"Hartmann\",\n"
-                       "  \"branch_of_study\": \"TIT\",\n"
-                       "  \"contact\": \"hartmann.chris-it24@it.dhbw-ravensburg.de\"\n"
-                       "}";
+        "  \"firstname\": \"Christian\",\n"
+        "  \"surname\": \"Hartmann\",\n"
+        "  \"branch_of_study\": \"TIT\",\n"
+        "  \"contact\": \"hartmann.chris-it24@it.dhbw-ravensburg.de\"\n"
+        "}";
     printf("%s\n", json);
 }
 

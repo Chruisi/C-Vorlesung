@@ -17,7 +17,7 @@ char morse_to_ascii_value(const char* code) {
             return 40 + i; //40 ist der start der sonderzeichen
         }
     }
-    if (strcmp(code, "..--.-") == 0) {
+    if (strcmp(code, "..--.-") == 0){
         return '_';
     }
     return '*'; //falls unbekannt

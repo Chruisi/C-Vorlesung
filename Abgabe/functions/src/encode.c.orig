@@ -20,27 +20,27 @@ char* encode_to_morse(const char* string_pointer) {
 
         if (c >= 'a' && c <= 'z') c -= 32; // zu Großbuchstaben
 
-        switch (c) {
+    switch (c){
         case ' ':
-            current_morse = "   "; // Worttrennung
-            break;
-        case '_':
-            current_morse = "..--.-"; //Underscore
-            break;
-        case '\n':
-        case '\r':
-            current_morse = ""; // ignorier carrige return und newline
-            break;
-        default:
-            if (c >= 'A' && c <= 'Z') {
-                current_morse = morse_table[c - 65];
-            } else if (c >= '(' && c <= '@') {
-                current_morse = morse_table_symbols[c - 40];
-            } else {
-                current_morse = "*"; // Unbekanntes Zeichen
-            }
-            break;
-        }
+                current_morse = "   "; // Worttrennung
+                break;
+            case '_':
+                current_morse = "..--.-"; //Underscore
+                break;
+            case '\n':
+            case '\r':
+                current_morse = ""; // ignorier carrige return und newline
+                break;
+            default:
+                if (c >= 'A' && c <= 'Z') {
+                    current_morse = morse_table[c - 65];
+                } else if (c >= '(' && c <= '@') {
+                    current_morse = morse_table_symbols[c - 40];
+                } else {
+                    current_morse = "*"; // Unbekanntes Zeichen
+                }
+                break;
+}
 
         size_t morse_len = strlen(current_morse);
         if (length + morse_len + 2 >= buffersize) {
