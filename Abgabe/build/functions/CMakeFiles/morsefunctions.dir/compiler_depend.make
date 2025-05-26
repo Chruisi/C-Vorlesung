@@ -156,18 +156,24 @@ functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o: /home/chrisi/Dok
 functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o: /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/input_output.c \
   /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include/input_output.h \
   /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
   /usr/include/endian.h \
+  /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/linux/errno.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -222,6 +228,14 @@ functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o: /home/chrisi/Dokum
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
 
+/usr/include/linux/errno.h:
+
+/usr/include/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
 /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/input_output.c:
 
 /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/help_functions.c:
@@ -237,6 +251,8 @@ functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o: /home/chrisi/Dokum
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -269,6 +285,8 @@ functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o: /home/chrisi/Dokum
 /usr/include/features-time64.h:
 
 /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/morse_tables.c:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 

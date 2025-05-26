@@ -5,7 +5,7 @@
 #include <morse_tables.h>
 
 char* encode_to_morse(const char* string_pointer) {
-    puts("encode_to_morse() aufgerufen");
+    //puts("encode_to_morse() aufgerufen");
     size_t buffersize = 1024;
     size_t length = 0;
     char* morse = malloc(buffersize);
@@ -26,11 +26,11 @@ char* encode_to_morse(const char* string_pointer) {
                 current_morse = "   "; // Worttrennung
                 break;
             case '_':
-                current_morse = "..--.-"; // Lowbar
+                current_morse = "..--.-"; //Underscore
                 break;
             case '\n':
             case '\r':
-                current_morse = ""; // ignoriere carrige return und newline
+                current_morse = ""; // ignorier carrige return und newline
                 break;
             default:
                 if (c >= 'A' && c <= 'Z') {
@@ -58,7 +58,6 @@ char* encode_to_morse(const char* string_pointer) {
         strcat(morse, " ");
         length += morse_len + 1;
     }
-    puts("encode_to_morse fertig() aufgerufen");
     return morse;
 }
 /*

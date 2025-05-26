@@ -13,9 +13,9 @@ void output_result(char* result, bool output_file, char* argument){
         output = fopen(argument, "w");
         if (!output) {
             if (errno == EACCES) {
-                printf("Fehler: Keine Berechtigung zum Öffnen von '%s'.\n", argument);
+                printf("Error opening file <%s>: Permission denied.\n", argument);
             } else {
-                printf("Fehler beim Öffnen von '%s'\n", argument);
+                printf("Error trying to open file <%s>\n", argument);
             }
             return;
         }
@@ -32,7 +32,7 @@ void output_result(char* result, bool output_file, char* argument){
 
 char* input_to_string(char* argument){
     //puts("input_to_string() aufgerufen");
-    printf("Versuche zu öffnen: %s\n", argument);
+    //printf("Versuche zu öffnen: %s\n", argument);
     FILE* input_file = stdin;
     size_t bufsize = 1024;
     size_t len = 0;
@@ -41,11 +41,11 @@ char* input_to_string(char* argument){
         input_file = fopen(argument, "r");
         if (!input_file) {
             if (errno == ENOENT) {
-                printf("Fehler: Datei '%s' existiert nicht.\n", argument);
+                printf("Error: File <%s> doesn't exist.\n", argument);
             } else if (errno == EACCES) {
-                printf("Fehler: Keine Berechtigung zum Öffnen von '%s'.\n", argument);
+                printf("Error opening file <%s>: Permission denied.\n", argument);
             } else {
-                printf("Fehler beim Öffnen von '%s'\n", argument);
+                printf("Error trying to open file <%s>\n", argument);
             }
             return NULL;
         }
@@ -74,7 +74,7 @@ char* input_to_string(char* argument){
         input[len++] = (char)c;
     }
 
-    input[len] = '\0';  // Nullterminator
+    input[len] = '\0';  //Nullterminator hinzufügen
 
     if (input_file != stdin) fclose(input_file);
     return input;

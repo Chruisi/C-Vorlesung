@@ -77,7 +77,7 @@ int main(int argc, char **argv) {
                 break;
         }
     }
-    if (default_flag) {
+    if (default_flag || (!e_flag && !d_flag)) {
         e_flag = true;
     }
     //printf("Nach dem Parsen: e_flag: %d, d_flag: %d, output_file_flag: %d\n", e_flag, d_flag, output_file_flag);
