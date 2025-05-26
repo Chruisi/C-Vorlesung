@@ -7,7 +7,6 @@
 
 
 void output_result(char* result, bool output_file, char* argument){
-    //puts("output_result() aufgerufen");
     FILE* output = stdout;
     if (argument != NULL && output_file) {
         output = fopen(argument, "w");
@@ -31,8 +30,6 @@ void output_result(char* result, bool output_file, char* argument){
 }
 
 char* input_to_string(char* argument){
-    //puts("input_to_string() aufgerufen");
-    //printf("Versuche zu öffnen: %s\n", argument);
     FILE* input_file = stdin;
     size_t bufsize = 1024;
     size_t len = 0;

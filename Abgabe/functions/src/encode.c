@@ -5,7 +5,6 @@
 #include <morse_tables.h>
 
 char* encode_to_morse(const char* string_pointer) {
-    //puts("encode_to_morse() aufgerufen");
     size_t buffersize = 1024;
     size_t length = 0;
     char* morse = malloc(buffersize);
@@ -60,40 +59,3 @@ char* encode_to_morse(const char* string_pointer) {
     }
     return morse;
 }
-/*
-if (c >= 'A' && c <= 'Z') {
-            current_morse = morse_table[c - 65];
-        }else if (c >= '(' && c <= '@') {
-            current_morse = morse_table_symbols[c - 40];
-        }else if (c == ' ') {
-            current_morse = "   "; // Worttrennung
-        }else if (c== '_'){
-            current_morse = "..--.-"; // Lowbar
-        }else if (c== '\n' || c == '\r') {
-            current_morse = ""; // ignoriere carrige return und newline
-        }else {
-            current_morse = "*"; // Unbekanntes Zeichen
-        }
-
-switch (c){
-    case ' ':
-        current_morse = "   "; // Worttrennung
-        break;
-    case '_':
-        current_morse = "..--.-"; // Lowbar
-        break;
-    case '\n':
-    case '\r':
-        current_morse = ""; // ignoriere carrige return und newline
-        break;
-    default:
-        if (c >= 'A' && c <= 'Z') {
-            current_morse = morse_table[c - 65];
-        } else if (c >= '(' && c <= '@') {
-            current_morse = morse_table_symbols[c - 40];
-        } else {
-            current_morse = "*"; // Unbekanntes Zeichen
-        }
-        break;
-}
-*/

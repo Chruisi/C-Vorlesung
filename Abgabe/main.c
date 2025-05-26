@@ -68,7 +68,6 @@ int main(int argc, char **argv) {
                     } else if (optind < argc && argv[optind][0] != '-') {
                         optarg = argv[optind];
                         ++optind;
-                        //printf("Option --mode mit manuell erkanntem Argument: %s\n", optarg);
                     } else {
                         optarg = NULL;
                     }
@@ -80,37 +79,36 @@ int main(int argc, char **argv) {
     if (default_flag || (!e_flag && !d_flag)) {
         e_flag = true;
     }
-    //printf("Nach dem Parsen: e_flag: %d, d_flag: %d, output_file_flag: %d\n", e_flag, d_flag, output_file_flag);
-        if (e_flag && d_flag){
-            puts("You can't encode and decode at the same time");
-            return 1;
-            }
-        if (error_flag){
-            print_error();
-            return 1;
+    if (e_flag && d_flag){
+        puts("You can't encode and decode at the same time");
+        return 1;
         }
-        if (e_flag){
-            char* text = input_to_string(input_argument);
-            if (text == NULL) {
-                free(text);
-                return 1;
-            }
-            char* result = encode_to_morse(text);
-            output_result(result, output_file_flag, output_argument);
+    if (error_flag){
+        print_error();
+        return 1;
+    }
+    if (e_flag){
+        char* text = input_to_string(input_argument);
+        if (text == NULL) {
             free(text);
-            free(result);
+            return 1;
         }
-        if (d_flag){
-            char* text = input_to_string(input_argument);
-            if (text == NULL) {
-                free(text);
-                return 1;
-            }
-            char* result = decode_to_ascii(text);
-            output_result(result, output_file_flag, output_argument);
+        char* result = encode_to_morse(text);
+        output_result(result, output_file_flag, output_argument);
+        free(text);
+        free(result);
+    }
+    if (d_flag){
+        char* text = input_to_string(input_argument);
+        if (text == NULL) {
             free(text);
-            free(result);
+            return 1;
         }
+        char* result = decode_to_ascii(text);
+        output_result(result, output_file_flag, output_argument);
+        free(text);
+        free(result);
+    }
     return 0;
 }
 
