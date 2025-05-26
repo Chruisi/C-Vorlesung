@@ -1,15 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h>
+#include <errno.h>
+#include <input_output.h>
 
 
-void output_result(char* result, char* argument){
-    puts("output_result() aufgerufen");
+void output_result(char* result, bool output_file, char* argument){
+    //puts("output_result() aufgerufen");
     FILE* output = stdout;
-    if (argument != NULL) {
+    if (argument != NULL && output_file) {
         output = fopen(argument, "w");
         if (!output) {
-            printf("Fehler beim Öffnen der Ausgabedatei %s", argument);
+            if (errno == EACCES) {
+                printf("Fehler: Keine Berechtigung zum Öffnen von '%s'.\n", argument);
+            } else {
+                printf("Fehler beim Öffnen von '%s'\n", argument);
+            }
             return;
         }
     }
@@ -24,7 +31,7 @@ void output_result(char* result, char* argument){
 }
 
 char* input_to_string(char* argument){
-    puts("input_to_string() aufgerufen");
+    //puts("input_to_string() aufgerufen");
     printf("Versuche zu öffnen: %s\n", argument);
     FILE* input_file = stdin;
     size_t bufsize = 1024;
@@ -33,7 +40,13 @@ char* input_to_string(char* argument){
     if (argument != NULL) {
         input_file = fopen(argument, "r");
         if (!input_file) {
-            printf("Error trying to open File: %s\n", argument);
+            if (errno == ENOENT) {
+                printf("Fehler: Datei '%s' existiert nicht.\n", argument);
+            } else if (errno == EACCES) {
+                printf("Fehler: Keine Berechtigung zum Öffnen von '%s'.\n", argument);
+            } else {
+                printf("Fehler beim Öffnen von '%s'\n", argument);
+            }
             return NULL;
         }
     }

@@ -1,5 +1,5 @@
 CMakeFiles/morse.dir/main.c.o: \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/main.c \
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -52,8 +52,8 @@ CMakeFiles/morse.dir/main.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h /usr/include/getopt.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_ext.h \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include/decode.h \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include/encode.h \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include/help_functions.h \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include/input_output.h \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include/morse_tables.h
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include/decode.h \
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include/encode.h \
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include/help_functions.h \
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include/input_output.h \
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include/morse_tables.h

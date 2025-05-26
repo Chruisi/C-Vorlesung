@@ -1,6 +1,6 @@
-/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles/morse.dir
-/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles/edit_cache.dir
-/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles/rebuild_cache.dir
-/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions/CMakeFiles/morsefunctions.dir
-/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions/CMakeFiles/edit_cache.dir
-/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions/CMakeFiles/rebuild_cache.dir
+/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles/morse.dir
+/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles/edit_cache.dir
+/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles/rebuild_cache.dir
+/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions/CMakeFiles/morsefunctions.dir
+/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions/CMakeFiles/edit_cache.dir
+/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions/CMakeFiles/rebuild_cache.dir

@@ -22,38 +22,65 @@ int main(int argc, char **argv) {
     char* result = NULL;
     char* input_argument = NULL;
     char* output_argument = NULL;
-    bool e_flag, d_flag, output_file_flag, error_flag;
-    e_flag = d_flag = output_file_flag, error_flag = false;
+    bool e_flag, d_flag, output_file_flag, error_flag, default_flag;
+    e_flag = d_flag = output_file_flag = error_flag = false;
+    default_flag = true;
 
     while ((opt = getopt_long(argc, argv, "pe::d::ho:", long_options, NULL)) != -1) {
         switch (opt) {
             case 'p':
+                default_flag = false;
                 print_programmer_info();
                 break;
             case 'd':
+                default_flag = false;
                 if (d_flag == false) {
                     d_flag = true;
+                    if (optarg){
+                        input_argument = optarg;
+                    } else if (optind < argc && argv[optind][0] != '-') {
+                        optarg = argv[optind];
+                        ++optind;
+                    } else {
+                        optarg = NULL;
+                    }
                     input_argument = optarg;
                 }
                 break;
             case 'h':
+                default_flag = false;
                 print_help();
                 break;
             case 'o':
-                //Handle output file logic here
+                default_flag = false;
+                output_file_flag = true;
+                output_argument = optarg;
                 break;
             case '?':
                 error_flag = true;
                 break;
             case 'e':
+                default_flag = false;
                 if (e_flag == false) {
                     e_flag = true;
-                    input_argument = optarg; //String variable aus kommandozeile wird gespeichert
+                    if (optarg){
+                        input_argument = optarg;
+                    } else if (optind < argc && argv[optind][0] != '-') {
+                        optarg = argv[optind];
+                        ++optind;
+                        //printf("Option --mode mit manuell erkanntem Argument: %s\n", optarg);
+                    } else {
+                        optarg = NULL;
+                    }
+                    input_argument = optarg;
                 }
                 break;
         }
     }
-    printf("Nach dem Parsen: e_flag: %d, d_flag: %d, output_file_flag: %d\n", e_flag, d_flag, output_file_flag);
+    if (default_flag) {
+        e_flag = true;
+    }
+    //printf("Nach dem Parsen: e_flag: %d, d_flag: %d, output_file_flag: %d\n", e_flag, d_flag, output_file_flag);
         if (e_flag && d_flag){
             puts("You can't encode and decode at the same time");
             return 1;
@@ -69,7 +96,7 @@ int main(int argc, char **argv) {
                 return 1;
             }
             char* result = encode_to_morse(text);
-            output_result(result, output_argument);
+            output_result(result, output_file_flag, output_argument);
             free(text);
             free(result);
         }
@@ -80,7 +107,7 @@ int main(int argc, char **argv) {
                 return 1;
             }
             char* result = decode_to_ascii(text);
-            output_result(result, output_argument);
+            output_result(result, output_file_flag, output_argument);
             free(text);
             free(result);
         }

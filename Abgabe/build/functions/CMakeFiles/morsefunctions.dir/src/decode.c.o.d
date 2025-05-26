@@ -1,5 +1,5 @@
 functions/CMakeFiles/morsefunctions.dir/src/decode.c.o: \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/decode.c \
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/decode.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -52,4 +52,4 @@ functions/CMakeFiles/morsefunctions.dir/src/decode.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include/decode.h
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include/decode.h

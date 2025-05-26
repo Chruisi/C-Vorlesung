@@ -1,5 +1,5 @@
 functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o: \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/input_output.c \
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/input_output.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,4 +51,9 @@ functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h
+ /usr/include/strings.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include/input_output.h

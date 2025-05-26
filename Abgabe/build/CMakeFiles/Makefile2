@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe
+CMAKE_SOURCE_DIR = /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build
+CMAKE_BINARY_DIR = /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -98,14 +98,14 @@ functions/clean: functions/CMakeFiles/morsefunctions.dir/clean
 CMakeFiles/morse.dir/all: functions/CMakeFiles/morsefunctions.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morse.dir/build.make CMakeFiles/morse.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morse.dir/build.make CMakeFiles/morse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles --progress-num=1,2 "Built target morse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles --progress-num=1,2 "Built target morse"
 .PHONY : CMakeFiles/morse.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/morse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/morse.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles 0
 .PHONY : CMakeFiles/morse.dir/rule
 
 # Convenience name for target.
@@ -124,14 +124,14 @@ CMakeFiles/morse.dir/clean:
 functions/CMakeFiles/morsefunctions.dir/all:
 	$(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/depend
 	$(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles --progress-num=3,4,5,6,7,8 "Built target morsefunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles --progress-num=3,4,5,6,7,8 "Built target morsefunctions"
 .PHONY : functions/CMakeFiles/morsefunctions.dir/all
 
 # Build rule for subdir invocation for target.
 functions/CMakeFiles/morsefunctions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions/CMakeFiles/morsefunctions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles 0
 .PHONY : functions/CMakeFiles/morsefunctions.dir/rule
 
 # Convenience name for target.

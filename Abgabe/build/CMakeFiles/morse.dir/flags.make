@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include
+C_INCLUDES = -I/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include
 
 C_FLAGS = 
 

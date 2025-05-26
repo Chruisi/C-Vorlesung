@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <help_functions.h>
 
 void print_programmer_info() {
     const char *json = "{\n"

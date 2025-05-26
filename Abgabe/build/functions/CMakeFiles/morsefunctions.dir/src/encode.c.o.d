@@ -1,5 +1,5 @@
 functions/CMakeFiles/morsefunctions.dir/src/encode.c.o: \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/encode.c \
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/encode.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -52,5 +52,5 @@ functions/CMakeFiles/morsefunctions.dir/src/encode.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include/encode.h \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include/morse_tables.h
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include/encode.h \
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include/morse_tables.h

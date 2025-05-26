@@ -7,7 +7,7 @@ extern const char *morse_table[26];
 extern const char *morse_table_symbols[26];
 
 char morse_to_ascii_value(const char* code) {
-    puts("morse_to_ascii_value() aufgerufen");
+    //puts("morse_to_ascii_value() aufgerufen");
     for (int i = 0; i < 26; i++) {
         if (strcmp(code, morse_table[i]) == 0) {
             return 65 + i; //65 => A, 97 => a
@@ -18,11 +18,14 @@ char morse_to_ascii_value(const char* code) {
             return 40 + i; //40 ist der start der sonderzeichen
         }
     }
+    if (strcmp(code, "..--.-") == 0){
+        return '_';
+    }
     return '*'; //falls unbekannt
 }
 
 char* decode_to_ascii(const char* morse_input) {
-    puts("decode_to_ascii() aufgerufen");
+    //puts("decode_to_ascii() aufgerufen");
     size_t input_len = strlen(morse_input);
     char* ascii = malloc(input_len + 1);
     if (!ascii) {
@@ -37,7 +40,7 @@ char* decode_to_ascii(const char* morse_input) {
 
     for (size_t i = 0; i <= input_len; i++) {
         char c = morse_input[i];
-        if (c == '.' || c == '-') {
+        if (c == '.' || c == '-' || c == '*') {
             buffer[buf_index++] = c;
             buffer[buf_index] = '\0';
             space_count = 0;

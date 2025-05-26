@@ -1,4 +1,4 @@
-# Install script for directory: /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions
+# Install script for directory: /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,6 +1,8 @@
 {
     "files.associations": {
-        "cstdlib": "c"
+        "*.embeddedhtml": "html",
+        "cstdlib": "c",
+        "input_output.h": "c"
     },
     "cmake.sourceDirectory": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe"
 }

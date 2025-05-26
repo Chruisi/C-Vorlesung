@@ -1,5 +1,5 @@
 functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o: \
- /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/help_functions.c \
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/help_functions.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -23,4 +23,5 @@ functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include/help_functions.h

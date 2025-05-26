@@ -1,4 +1,4 @@
-# Install script for directory: /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe
+# Install script for directory: /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions/cmake_install.cmake")
+  include("/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

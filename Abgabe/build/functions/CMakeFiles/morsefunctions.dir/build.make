@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe
+CMAKE_SOURCE_DIR = /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build
+CMAKE_BINARY_DIR = /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build
 
 # Include any dependencies generated for this target.
 include functions/CMakeFiles/morsefunctions.dir/depend.make
@@ -70,74 +70,74 @@ include functions/CMakeFiles/morsefunctions.dir/progress.make
 include functions/CMakeFiles/morsefunctions.dir/flags.make
 
 functions/CMakeFiles/morsefunctions.dir/src/decode.c.o: functions/CMakeFiles/morsefunctions.dir/flags.make
-functions/CMakeFiles/morsefunctions.dir/src/decode.c.o: /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/decode.c
+functions/CMakeFiles/morsefunctions.dir/src/decode.c.o: /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/decode.c
 functions/CMakeFiles/morsefunctions.dir/src/decode.c.o: functions/CMakeFiles/morsefunctions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object functions/CMakeFiles/morsefunctions.dir/src/decode.c.o"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT functions/CMakeFiles/morsefunctions.dir/src/decode.c.o -MF CMakeFiles/morsefunctions.dir/src/decode.c.o.d -o CMakeFiles/morsefunctions.dir/src/decode.c.o -c /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/decode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object functions/CMakeFiles/morsefunctions.dir/src/decode.c.o"
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT functions/CMakeFiles/morsefunctions.dir/src/decode.c.o -MF CMakeFiles/morsefunctions.dir/src/decode.c.o.d -o CMakeFiles/morsefunctions.dir/src/decode.c.o -c /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/decode.c
 
 functions/CMakeFiles/morsefunctions.dir/src/decode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/morsefunctions.dir/src/decode.c.i"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/decode.c > CMakeFiles/morsefunctions.dir/src/decode.c.i
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/decode.c > CMakeFiles/morsefunctions.dir/src/decode.c.i
 
 functions/CMakeFiles/morsefunctions.dir/src/decode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/morsefunctions.dir/src/decode.c.s"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/decode.c -o CMakeFiles/morsefunctions.dir/src/decode.c.s
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/decode.c -o CMakeFiles/morsefunctions.dir/src/decode.c.s
 
 functions/CMakeFiles/morsefunctions.dir/src/encode.c.o: functions/CMakeFiles/morsefunctions.dir/flags.make
-functions/CMakeFiles/morsefunctions.dir/src/encode.c.o: /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/encode.c
+functions/CMakeFiles/morsefunctions.dir/src/encode.c.o: /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/encode.c
 functions/CMakeFiles/morsefunctions.dir/src/encode.c.o: functions/CMakeFiles/morsefunctions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object functions/CMakeFiles/morsefunctions.dir/src/encode.c.o"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT functions/CMakeFiles/morsefunctions.dir/src/encode.c.o -MF CMakeFiles/morsefunctions.dir/src/encode.c.o.d -o CMakeFiles/morsefunctions.dir/src/encode.c.o -c /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/encode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object functions/CMakeFiles/morsefunctions.dir/src/encode.c.o"
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT functions/CMakeFiles/morsefunctions.dir/src/encode.c.o -MF CMakeFiles/morsefunctions.dir/src/encode.c.o.d -o CMakeFiles/morsefunctions.dir/src/encode.c.o -c /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/encode.c
 
 functions/CMakeFiles/morsefunctions.dir/src/encode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/morsefunctions.dir/src/encode.c.i"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/encode.c > CMakeFiles/morsefunctions.dir/src/encode.c.i
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/encode.c > CMakeFiles/morsefunctions.dir/src/encode.c.i
 
 functions/CMakeFiles/morsefunctions.dir/src/encode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/morsefunctions.dir/src/encode.c.s"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/encode.c -o CMakeFiles/morsefunctions.dir/src/encode.c.s
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/encode.c -o CMakeFiles/morsefunctions.dir/src/encode.c.s
 
 functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o: functions/CMakeFiles/morsefunctions.dir/flags.make
-functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o: /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/help_functions.c
+functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o: /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/help_functions.c
 functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o: functions/CMakeFiles/morsefunctions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o -MF CMakeFiles/morsefunctions.dir/src/help_functions.c.o.d -o CMakeFiles/morsefunctions.dir/src/help_functions.c.o -c /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/help_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o"
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o -MF CMakeFiles/morsefunctions.dir/src/help_functions.c.o.d -o CMakeFiles/morsefunctions.dir/src/help_functions.c.o -c /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/help_functions.c
 
 functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/morsefunctions.dir/src/help_functions.c.i"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/help_functions.c > CMakeFiles/morsefunctions.dir/src/help_functions.c.i
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/help_functions.c > CMakeFiles/morsefunctions.dir/src/help_functions.c.i
 
 functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/morsefunctions.dir/src/help_functions.c.s"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/help_functions.c -o CMakeFiles/morsefunctions.dir/src/help_functions.c.s
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/help_functions.c -o CMakeFiles/morsefunctions.dir/src/help_functions.c.s
 
 functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o: functions/CMakeFiles/morsefunctions.dir/flags.make
-functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o: /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/input_output.c
+functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o: /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/input_output.c
 functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o: functions/CMakeFiles/morsefunctions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o -MF CMakeFiles/morsefunctions.dir/src/input_output.c.o.d -o CMakeFiles/morsefunctions.dir/src/input_output.c.o -c /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/input_output.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o"
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o -MF CMakeFiles/morsefunctions.dir/src/input_output.c.o.d -o CMakeFiles/morsefunctions.dir/src/input_output.c.o -c /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/input_output.c
 
 functions/CMakeFiles/morsefunctions.dir/src/input_output.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/morsefunctions.dir/src/input_output.c.i"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/input_output.c > CMakeFiles/morsefunctions.dir/src/input_output.c.i
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/input_output.c > CMakeFiles/morsefunctions.dir/src/input_output.c.i
 
 functions/CMakeFiles/morsefunctions.dir/src/input_output.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/morsefunctions.dir/src/input_output.c.s"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/input_output.c -o CMakeFiles/morsefunctions.dir/src/input_output.c.s
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/input_output.c -o CMakeFiles/morsefunctions.dir/src/input_output.c.s
 
 functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o: functions/CMakeFiles/morsefunctions.dir/flags.make
-functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o: /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/morse_tables.c
+functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o: /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/morse_tables.c
 functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o: functions/CMakeFiles/morsefunctions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o -MF CMakeFiles/morsefunctions.dir/src/morse_tables.c.o.d -o CMakeFiles/morsefunctions.dir/src/morse_tables.c.o -c /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/morse_tables.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o"
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o -MF CMakeFiles/morsefunctions.dir/src/morse_tables.c.o.d -o CMakeFiles/morsefunctions.dir/src/morse_tables.c.o -c /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/morse_tables.c
 
 functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/morsefunctions.dir/src/morse_tables.c.i"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/morse_tables.c > CMakeFiles/morsefunctions.dir/src/morse_tables.c.i
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/morse_tables.c > CMakeFiles/morsefunctions.dir/src/morse_tables.c.i
 
 functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/morsefunctions.dir/src/morse_tables.c.s"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/morse_tables.c -o CMakeFiles/morsefunctions.dir/src/morse_tables.c.s
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/morse_tables.c -o CMakeFiles/morsefunctions.dir/src/morse_tables.c.s
 
 # Object files for target morsefunctions
 morsefunctions_OBJECTS = \
@@ -157,19 +157,19 @@ functions/libmorsefunctions.a: functions/CMakeFiles/morsefunctions.dir/src/input
 functions/libmorsefunctions.a: functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o
 functions/libmorsefunctions.a: functions/CMakeFiles/morsefunctions.dir/build.make
 functions/libmorsefunctions.a: functions/CMakeFiles/morsefunctions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libmorsefunctions.a"
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && $(CMAKE_COMMAND) -P CMakeFiles/morsefunctions.dir/cmake_clean_target.cmake
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/morsefunctions.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libmorsefunctions.a"
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && $(CMAKE_COMMAND) -P CMakeFiles/morsefunctions.dir/cmake_clean_target.cmake
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/morsefunctions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 functions/CMakeFiles/morsefunctions.dir/build: functions/libmorsefunctions.a
 .PHONY : functions/CMakeFiles/morsefunctions.dir/build
 
 functions/CMakeFiles/morsefunctions.dir/clean:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions && $(CMAKE_COMMAND) -P CMakeFiles/morsefunctions.dir/cmake_clean.cmake
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions && $(CMAKE_COMMAND) -P CMakeFiles/morsefunctions.dir/cmake_clean.cmake
 .PHONY : functions/CMakeFiles/morsefunctions.dir/clean
 
 functions/CMakeFiles/morsefunctions.dir/depend:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions/CMakeFiles/morsefunctions.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions/CMakeFiles/morsefunctions.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : functions/CMakeFiles/morsefunctions.dir/depend
 

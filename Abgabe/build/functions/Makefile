@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe
+CMAKE_SOURCE_DIR = /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build
+CMAKE_BINARY_DIR = /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions//CMakeFiles/progress.marks
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/CMakeFiles 0
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions//CMakeFiles/progress.marks
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions/clean
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions/preinstall
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions/preinstall
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 functions/CMakeFiles/morsefunctions.dir/rule:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions/CMakeFiles/morsefunctions.dir/rule
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions/CMakeFiles/morsefunctions.dir/rule
 .PHONY : functions/CMakeFiles/morsefunctions.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ morsefunctions: functions/CMakeFiles/morsefunctions.dir/rule
 
 # fast build rule for target.
 morsefunctions/fast:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/build
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/build
 .PHONY : morsefunctions/fast
 
 src/decode.o: src/decode.c.o
@@ -135,7 +135,7 @@ src/decode.o: src/decode.c.o
 
 # target to build an object file
 src/decode.c.o:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/decode.c.o
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/decode.c.o
 .PHONY : src/decode.c.o
 
 src/decode.i: src/decode.c.i
@@ -143,7 +143,7 @@ src/decode.i: src/decode.c.i
 
 # target to preprocess a source file
 src/decode.c.i:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/decode.c.i
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/decode.c.i
 .PHONY : src/decode.c.i
 
 src/decode.s: src/decode.c.s
@@ -151,7 +151,7 @@ src/decode.s: src/decode.c.s
 
 # target to generate assembly for a file
 src/decode.c.s:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/decode.c.s
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/decode.c.s
 .PHONY : src/decode.c.s
 
 src/encode.o: src/encode.c.o
@@ -159,7 +159,7 @@ src/encode.o: src/encode.c.o
 
 # target to build an object file
 src/encode.c.o:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/encode.c.o
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/encode.c.o
 .PHONY : src/encode.c.o
 
 src/encode.i: src/encode.c.i
@@ -167,7 +167,7 @@ src/encode.i: src/encode.c.i
 
 # target to preprocess a source file
 src/encode.c.i:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/encode.c.i
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/encode.c.i
 .PHONY : src/encode.c.i
 
 src/encode.s: src/encode.c.s
@@ -175,7 +175,7 @@ src/encode.s: src/encode.c.s
 
 # target to generate assembly for a file
 src/encode.c.s:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/encode.c.s
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/encode.c.s
 .PHONY : src/encode.c.s
 
 src/help_functions.o: src/help_functions.c.o
@@ -183,7 +183,7 @@ src/help_functions.o: src/help_functions.c.o
 
 # target to build an object file
 src/help_functions.c.o:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o
 .PHONY : src/help_functions.c.o
 
 src/help_functions.i: src/help_functions.c.i
@@ -191,7 +191,7 @@ src/help_functions.i: src/help_functions.c.i
 
 # target to preprocess a source file
 src/help_functions.c.i:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.i
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.i
 .PHONY : src/help_functions.c.i
 
 src/help_functions.s: src/help_functions.c.s
@@ -199,7 +199,7 @@ src/help_functions.s: src/help_functions.c.s
 
 # target to generate assembly for a file
 src/help_functions.c.s:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.s
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.s
 .PHONY : src/help_functions.c.s
 
 src/input_output.o: src/input_output.c.o
@@ -207,7 +207,7 @@ src/input_output.o: src/input_output.c.o
 
 # target to build an object file
 src/input_output.c.o:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o
 .PHONY : src/input_output.c.o
 
 src/input_output.i: src/input_output.c.i
@@ -215,7 +215,7 @@ src/input_output.i: src/input_output.c.i
 
 # target to preprocess a source file
 src/input_output.c.i:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/input_output.c.i
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/input_output.c.i
 .PHONY : src/input_output.c.i
 
 src/input_output.s: src/input_output.c.s
@@ -223,7 +223,7 @@ src/input_output.s: src/input_output.c.s
 
 # target to generate assembly for a file
 src/input_output.c.s:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/input_output.c.s
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/input_output.c.s
 .PHONY : src/input_output.c.s
 
 src/morse_tables.o: src/morse_tables.c.o
@@ -231,7 +231,7 @@ src/morse_tables.o: src/morse_tables.c.o
 
 # target to build an object file
 src/morse_tables.c.o:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o
 .PHONY : src/morse_tables.c.o
 
 src/morse_tables.i: src/morse_tables.c.i
@@ -239,7 +239,7 @@ src/morse_tables.i: src/morse_tables.c.i
 
 # target to preprocess a source file
 src/morse_tables.c.i:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.i
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.i
 .PHONY : src/morse_tables.c.i
 
 src/morse_tables.s: src/morse_tables.c.s
@@ -247,7 +247,7 @@ src/morse_tables.s: src/morse_tables.c.s
 
 # target to generate assembly for a file
 src/morse_tables.c.s:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.s
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(MAKE) $(MAKESILENT) -f functions/CMakeFiles/morsefunctions.dir/build.make functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.s
 .PHONY : src/morse_tables.c.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

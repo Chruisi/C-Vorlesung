@@ -1,38 +1,38 @@
 [
 {
-  "directory": "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build",
-  "command": "/usr/bin/cc  -I/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include  -o CMakeFiles/morse.dir/main.c.o -c /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/main.c",
-  "file": "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/main.c",
+  "directory": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build",
+  "command": "/usr/bin/cc  -I/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include  -o CMakeFiles/morse.dir/main.c.o -c /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/main.c",
+  "file": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/main.c",
   "output": "CMakeFiles/morse.dir/main.c.o"
 },
 {
-  "directory": "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions",
-  "command": "/usr/bin/cc -DVERSION=v1.0.0 -I/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include  -o CMakeFiles/morsefunctions.dir/src/decode.c.o -c /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/decode.c",
-  "file": "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/decode.c",
+  "directory": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions",
+  "command": "/usr/bin/cc -DVERSION=v1.0.0 -I/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include  -o CMakeFiles/morsefunctions.dir/src/decode.c.o -c /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/decode.c",
+  "file": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/decode.c",
   "output": "functions/CMakeFiles/morsefunctions.dir/src/decode.c.o"
 },
 {
-  "directory": "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions",
-  "command": "/usr/bin/cc -DVERSION=v1.0.0 -I/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include  -o CMakeFiles/morsefunctions.dir/src/encode.c.o -c /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/encode.c",
-  "file": "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/encode.c",
+  "directory": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions",
+  "command": "/usr/bin/cc -DVERSION=v1.0.0 -I/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include  -o CMakeFiles/morsefunctions.dir/src/encode.c.o -c /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/encode.c",
+  "file": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/encode.c",
   "output": "functions/CMakeFiles/morsefunctions.dir/src/encode.c.o"
 },
 {
-  "directory": "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions",
-  "command": "/usr/bin/cc -DVERSION=v1.0.0 -I/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include  -o CMakeFiles/morsefunctions.dir/src/help_functions.c.o -c /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/help_functions.c",
-  "file": "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/help_functions.c",
+  "directory": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions",
+  "command": "/usr/bin/cc -DVERSION=v1.0.0 -I/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include  -o CMakeFiles/morsefunctions.dir/src/help_functions.c.o -c /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/help_functions.c",
+  "file": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/help_functions.c",
   "output": "functions/CMakeFiles/morsefunctions.dir/src/help_functions.c.o"
 },
 {
-  "directory": "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions",
-  "command": "/usr/bin/cc -DVERSION=v1.0.0 -I/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include  -o CMakeFiles/morsefunctions.dir/src/input_output.c.o -c /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/input_output.c",
-  "file": "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/input_output.c",
+  "directory": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions",
+  "command": "/usr/bin/cc -DVERSION=v1.0.0 -I/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include  -o CMakeFiles/morsefunctions.dir/src/input_output.c.o -c /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/input_output.c",
+  "file": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/input_output.c",
   "output": "functions/CMakeFiles/morsefunctions.dir/src/input_output.c.o"
 },
 {
-  "directory": "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/build/functions",
-  "command": "/usr/bin/cc -DVERSION=v1.0.0 -I/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/include  -o CMakeFiles/morsefunctions.dir/src/morse_tables.c.o -c /home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/morse_tables.c",
-  "file": "/home/chrisi/Documents/Vorlesungen/Programmieren/CundCPP/Abgabe/functions/src/morse_tables.c",
+  "directory": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/build/functions",
+  "command": "/usr/bin/cc -DVERSION=v1.0.0 -I/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/include  -o CMakeFiles/morsefunctions.dir/src/morse_tables.c.o -c /home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/morse_tables.c",
+  "file": "/home/chrisi/Dokumente/VScode/C-Vorlesung/Abgabe/functions/src/morse_tables.c",
   "output": "functions/CMakeFiles/morsefunctions.dir/src/morse_tables.c.o"
 }
 ]
